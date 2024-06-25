@@ -1,0 +1,48 @@
+
+
+
+/*.container::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: blue;
+}*/
+
+
+
+.container{
+    background: rgb(125, 76, 76);
+    height: 5vh;
+    min-width: 20px;
+    width: fit-content;
+    margin-top: 5px;
+    list-style: none;
+}
+
+.child{
+    background: rgb(0, 255, 17);
+    height: 50%;
+    width: 50%;
+}
+
+.test{
+    background: rgb(101, 0, 144);
+    border-radius: 50%;
+}
+
+/*::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #e41b1b;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #3c00ff9f;
+    border-radius: 25px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff200;
+  }*/
